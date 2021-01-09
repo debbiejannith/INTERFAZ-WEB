@@ -1,0 +1,59 @@
+body{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+h2{
+    font-weight: 700;
+}
+p{
+    font-weight: 400;
+}
+.contrainer{
+    margin: 0 auto;
+    width: 90%;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-center{
+    text-align: center;
+}
+.columna{
+    background: rgb(218, 126, 247);
+    color: rgb(2, 2, 2);
+    border: 1px solid #1f178d;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 40px;
+    box-shadow: 10px 10px 5px rgb(93, 2, 116);
+    width: 20%;
+    box-sizing: border-box;
+}
+.precio{
+    font-size: 60px;
+    color: rgb(19, 9, 156);
+}
+.btn-precio{
+    background: rgb(114, 13, 84);
+    display: block;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.btn-precio:hover{
+    background: rgb(120, 204, 11);
+}
+@media (max-width: 1070px){
+    .columna{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width: 600px){
+    .columna{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
